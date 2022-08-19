@@ -38,7 +38,7 @@ global.thumb = fs.readFileSync("./src/baba.jpg")
 global.profil = fs.readFileSync("./src/botstyle.png")
 global.zippy = (await import('./lib/zippy.cjs')).zippy
 global.tiny = (await import('./lib/tiny.cjs')).default
-global.gc = "https://chat.whatsapp.com/KihEAYjKr04LI4uUrbiiip"
+global.gc = "https://chat.whatsapp.com/LR8q27mkkihJptchGvpBct"
 global.gh = "https://github.com/botstylee"
 global.yt = "https://youtube.com/channel/UCrNO1yUYW0i3xsJp4NGBh4Q"
 function ucapan() {
@@ -46,16 +46,16 @@ function ucapan() {
 	var res
 	res = tiny("Selamat pagi ")
 	if (time >= 4) {
-		res = tiny("Selamat pagi ")
+		res = tiny("Selamat pagi para master roh ")
 	}
 	if (time > 10) {
-		res = tiny("Selamat siang ")
+		res = tiny("Selamat siang para master roh ")
 	}
 	if (time >= 15) {
-		res = tiny("Selamat sore ")
+		res = tiny("Selamat sore para master roh ")
 	}
 	if (time >= 18) {
-		res = tiny("Selamat malam ")
+		res = tiny("Selamat malam para master roh ")
 	}
 	return res
 }
@@ -115,10 +115,10 @@ global.log = function log() {
 	console.log.apply(console, args);
 }
 global.owner = [
-	//  ['6281234288573'],
-	//['12546153210'],
-	//['62895368900456'],
-	['62895368900456', 'Benniismael', true]
+	//  ['6285798267620'],
+	//['6285798267620'],
+	//['6285798267629'],
+	['6285798267620', 'Benniismael', true]
 	// [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -139,7 +139,7 @@ global.APIKeys = { // APIKey Here
 global.packname = 'ig : Beni_230\'Benniismael'
 global.author = 'BENNIISMAEL & GHOST'
 global.wm = 'BOTSTYLEE'
-global.nomorown = '62895368900456'
+global.nomorown = '6285798267620'
 global.multiplier = 69 // The higher, The harder levelup
 global.titlebot = `⫹⫺ RPG BOT Whatsapp | By ${author}`
 global.rpg = {
@@ -253,282 +253,282 @@ global.rpg = {
 		}
 		// this code make config.js to be a more understandable code
 		var role = [{
-				name: 'Warrior V',
+				name: 'Spirit Scholar',
 				level: 0
 			}, {
-				name: 'Warrior IV',
-				level: 4
+				name: 'Spirit Scholar',
+				level: 1
 			}, {
-				name: 'Warrior III',
-				level: 8
+				name: 'Spirit Scholar',
+				level: 5
 			}, {
-				name: 'Warrior II',
-				level: 12
+				name: 'Spirit Scholar',
+				level: 9
 			}, {
-				name: 'Warrior I',
-				level: 16
+				name: 'Spirit Master',
+				level: 10
 			},
 			{
-				name: 'Paladin V',
+				name: 'Spirit Master',
+				level: 11
+			}, {
+				name: 'Spirit Master',
+				level: 15
+			}, {
+				name: 'Spirit Master',
+				level: 19
+			}, {
+				name: 'Spirit Grandmaster',
 				level: 20
 			}, {
-				name: 'Paladin IV',
-				level: 24
-			}, {
-				name: 'Paladin III',
-				level: 28
-			}, {
-				name: 'Paladin II',
-				level: 32
-			}, {
-				name: 'Paladin I',
-				level: 36
+				name: 'Spirit Grandmaster',
+				level: 21
 			},
 			{
-				name: 'Sorcerer V',
+				name: 'Spirit Grandmaster',
+				level: 25
+			}, {
+				name: 'Spirit Grandmaster',
+				level: 29
+			}, {
+				name: 'Spirit Elder',
+				level: 30
+			}, {
+				name: 'Spirit Elder',
+				level: 31
+			}, {
+				name: 'Spirit Elder',
+				level: 35
+			},
+			{
+				name: 'Spirit Elder',
+				level: 39
+			}, {
+				name: 'Spirit Ancestor',
 				level: 40
 			}, {
-				name: 'Sorcerer IV',
-				level: 44
+				name: 'Spiriy Ancestor',
+				level: 41
 			}, {
-				name: 'Sorcerer III',
-				level: 48
+				name: 'Spirit Ancestor',
+				level: 45
 			}, {
-				name: 'Sorcerer II',
-				level: 52
-			}, {
-				name: 'Sorcerer I',
-				level: 56
+				name: 'Spirit Ancestor',
+				level: 49
 			},
 			{
-				name: 'Ranger V',
+				name: 'Spirit King',
+				level: 50
+			}, {
+				name: 'Spirit King',
+				level: 51
+			}, {
+				name: 'Spirit King',
+				level: 55
+			}, {
+				name: 'Spirit King',
+				level: 59
+			}, {
+				name: 'Spirit Emperor',
 				level: 60
-			}, {
-				name: 'Ranger IV',
-				level: 64
-			}, {
-				name: 'Ranger III',
-				level: 68
-			}, {
-				name: 'Ranger II',
-				level: 72
-			}, {
-				name: 'Ranger I',
-				level: 76
 			},
 			{
-				name: 'Mage V',
+				name: 'Spirit Emperor',
+				level: 61
+			}, {
+				name: 'Spiriy Emperor',
+				level: 65
+			}, {
+				name: 'Spirit Emperor',
+				level: 69
+			}, {
+				name: 'Spirit Saint',
+				level: 70
+			}, {
+				name: 'Spirit Saint',
+				level: 71
+			},
+			{
+				name: 'Spirit Saint',
+				level: 75
+			}, {
+				name: 'Spirit Saint',
+				level: 79
+			}, {
+				name: 'Spirit Douluo',
 				level: 80
 			}, {
-				name: 'Mage IV',
-				level: 84
+				name: 'Spirit Douluo',
+				level: 81
 			}, {
-				name: 'Mage III',
-				level: 88
+				name: 'Spirit Douluo',
+				level: 85
+			},
+			{
+				name: 'Spirit Douluo',
+				level: 89
 			}, {
-				name: 'Mage II',
+				name: 'Avarage titled Douluo',
+				level: 90
+			}, {
+				name: 'Avarage Titled Douluo',
+				level: 91
+			}, {
+				name: 'Avarage Titled Douluo',
 				level: 92
 			}, {
-				name: 'Mage I',
-				level: 96
+				name: 'Avarage Titled Douluo',
+				level: 93
 			},
 			{
-				name: 'Cleric V',
+				name: 'Avarage Titled Douluo',
+				level: 94
+			}, {
+				name: 'Hyper Titled Douluo',
+				level: 95
+			}, {
+				name: 'Hyper Titled Douluo',
+				level: 96
+			}, {
+				name: 'Hyper Titled Douluo',
+				level: 97
+			}, {
+				name: 'Limit Douluo',
+				level: 98
+			},
+			{
+				name: 'Demi God',
+				level: 99
+			}, {
+				name: 'God',
 				level: 100
 			}, {
-				name: 'Cleric IV',
-				level: 104
+				name: 'God',
+				level: 101
 			}, {
-				name: 'Cleric III',
-				level: 108
+				name: 'God',
+				level: 105
 			}, {
-				name: 'Cleric II',
-				level: 112
-			}, {
-				name: 'Cleric I',
-				level: 116
+				name: 'God',
+				level: 109
 			},
 			{
-				name: 'Thief V',
+				name: 'God Class 1',
+				level: 110
+			}, {
+				name: 'God Class 1',
+				level: 111
+			}, {
+				name: 'God Class 1',
+				level: 115
+			}, {
+				name: 'God Class 1',
+				level: 119
+			}, {
+				name: 'God Class 2',
 				level: 120
-			}, {
-				name: 'Thief IV',
-				level: 124
-			}, {
-				name: 'Thief III',
-				level: 128
-			}, {
-				name: 'Thief II',
-				level: 132
-			}, {
-				name: 'Thief I',
-				level: 136
 			},
 			{
-				name: 'Assassin V',
+				name: 'God Class 2',
+				level: 121
+			}, {
+				name: 'God Class 2',
+				level: 125
+			}, {
+				name: 'God Class 2',
+				level: 129
+			}, {
+				name: 'God Class 3',
+				level: 130
+			}, {
+				name: 'God Class 3',
+				level: 131
+			},
+			{
+				name: 'God Class 3',
+				level: 135
+			}, {
+				name: 'God Class 3',
+				level: 139
+			}, {
+				name: 'Advance God',
 				level: 140
 			}, {
-				name: 'Assassin IV',
-				level: 144
+				name: 'Advance God',
+				level: 141
 			}, {
-				name: 'Assassin III',
-				level: 148
-			}, {
-				name: 'Assassin II',
-				level: 152
-			}, {
-				name: 'Assassin I',
-				level: 156
+				name: 'Advance God',
+				level: 145
 			},
 			{
-				name: 'Monk V',
+				name: 'Advance God',
+				level: 149
+			}, {
+				name: 'Half GodKing',
+				level: 150
+			}, {
+				name: 'Half GodKing',
+				level: 151
+			}, {
+				name: 'Half GodKing',
+				level: 155
+			}, {
+				name: 'Half GodKing',
+				level: 159
+			},
+			{
+				name: 'GodKing',
 				level: 160
 			}, {
-				name: 'Monk IV',
-				level: 164
+				name: 'GodKing',
+				level: 161
 			}, {
-				name: 'Monk III',
-				level: 168
+				name: 'GodKing',
+				level: 165
 			}, {
-				name: 'Monk II',
-				level: 172
+				name: 'GodKing',
+				level: 169
 			}, {
-				name: 'Monk I',
-				level: 176
+				name: 'Peak King Of God',
+				level: 170
 			},
 			{
-				name: 'Bard V',
+				name: 'Peak King Of God',
+				level: 171
+			}, {
+				name: 'Peak King Of God',
+				level: 175
+			}, {
+				name: 'Peak King Of God',
+				level: 179
+			}, {
+				name: 'Half King Creator God',
 				level: 180
 			}, {
-				name: 'Bard IV',
-				level: 184
-			}, {
-				name: 'Bard III',
-				level: 188
-			}, {
-				name: 'Bard II',
-				level: 192
-			}, {
-				name: 'Bard I',
-				level: 196
+				name: 'Halt King Creator God',
+				level: 181
 			},
 			{
-				name: 'Necromancer V',
-				level: 200
+				name: 'Half King Creator God',
+				level: 185
 			}, {
-				name: 'Necromancer IV',
-				level: 204
+				name: 'Half King Creator God',
+				level: 189
 			}, {
-				name: 'Necromancer III',
-				level: 208
+				name: 'Creator GodKing',
+				level: 190
 			}, {
-				name: 'Necromancer II',
-				level: 212
+				name: 'Creator GodKing',
+				level: 191
 			}, {
-				name: 'Necromancer I',
-				level: 216
+				name: 'Creator GodKing',
+				level: 195
 			},
 			{
-				name: 'Warlock V',
-				level: 220
+				name: 'Creator GodKing',
+				level: 199
 			}, {
-				name: 'Warlock IV',
-				level: 224
-			}, {
-				name: 'Warlock III',
-				level: 228
-			}, {
-				name: 'Warlock II',
-				level: 232
-			}, {
-				name: 'Warlock I',
-				level: 236
-			},
-			{
-				name: 'Wizard V',
-				level: 240
-			}, {
-				name: 'Wizard IV',
-				level: 244
-			}, {
-				name: 'Wizard III',
-				level: 248
-			}, {
-				name: 'Wizard II',
-				level: 252
-			}, {
-				name: 'Wizard I',
-				level: 256
-			},
-			{
-				name: 'Sage V',
-				level: 260
-			}, {
-				name: 'Sage IV',
-				level: 264
-			}, {
-				name: 'Sage III',
-				level: 268
-			}, {
-				name: 'Sage II',
-				level: 272
-			}, {
-				name: 'Sage I',
-				level: 276
-			},
-			{
-				name: 'Priest V',
-				level: 280
-			}, {
-				name: 'Priest IV',
-				level: 284
-			}, {
-				name: 'Priest III',
-				level: 288
-			}, {
-				name: 'Priest II',
-				level: 292
-			}, {
-				name: 'Priest I',
-				level: 296
-			},
-			{
-				name: 'Rogue V',
-				level: 300
-			}, {
-				name: 'Rogue IV',
-				level: 304
-			}, {
-				name: 'Rogue III',
-				level: 308
-			}, {
-				name: 'Rogue II',
-				level: 312
-			}, {
-				name: 'Rogue I',
-				level: 316
-			},
-			{
-				name: 'Brawler V',
-				level: 320
-			}, {
-				name: 'Brawler IV',
-				level: 324
-			}, {
-				name: 'Brawler III',
-				level: 328
-			}, {
-				name: 'Brawler II',
-				level: 332
-			}, {
-				name: 'Brawler I',
-				level: 336
-			},
-			{
-				name: 'Archer V',
-				level: 340
-			}, {
-				name: 'Archer IV',
+				name: 'arceh',
 				level: 344
 			}, {
 				name: 'Archer III',
